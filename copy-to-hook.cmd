@@ -7,6 +7,7 @@ xcopy .\pre-commit .\..\..\.git\hooks\ /Y /F
 mkdir .\..\..\.git\hooks\v8Reader
 xcopy .\v8Reader\V8Reader.epf .\..\..\.git\hooks\v8Reader\ /Y /F
 xcopy .\pyv8unpack.py .\..\..\.git\hooks\ /Y /F
+xcopy .\v8files-extractor.os .\..\..\.git\hooks\ /Y /F
 
 cd .\..\..\
 git config --local core.quotepath false
